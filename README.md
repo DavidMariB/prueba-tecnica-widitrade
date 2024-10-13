@@ -27,3 +27,14 @@ Culquier duda que tengáis a la hora de hacer funcionar el proyecto ya que he vi
 También cualquier sugerencia para mejorar el proyecto ya que hasta a pesar de trabajar con PHP nunca había trabajado con Symfony y al tener tantas cosas propias estoy convencido de que se podrán mejorar muchas cosas, o cualquier cosa del enunciado si por algún motivo no he entendido bien o realizado como vosotros pedíais, no dudéis en decirmelo :D
 
 ¡Muchas gracias!
+
+
+-----------------------------------------------------------------------
+
+EXTRA:
+
+Buenas David, la semana que viene voy a tener que estar ausente unos días debido a un imprevisto que me ha surgido, y hay que dejar la última parte de la API hecha.
+
+Te eh dejado subido al repositorio el proyecto con todas las clases de Entidades, Controladores y Repositorios. También he dejado el CRUD de todas las entidades realizado. Nos faltaría refinar la parte de las valoraciones para que en los contenidos se muestre una media de las valoraciones que realizen los usuarios. Para esto podríamos implementar un nuevo método en el controlador (ya que gestionamos ahí toda la lógica) en el cual nos recojamos las valoraciones y saquemos un conteo de cuantas tiene ese contenido, para realizar una simple división entre la suma de las valoraciones y cuantas hay en total, para que así los usuarios puedan ver que tan útil es ese contenido.
+
+¡Muchas gracias ppor tu ayuda! Cualquier cosa tienes mi teléfono por si hay cualquier emergencia.
