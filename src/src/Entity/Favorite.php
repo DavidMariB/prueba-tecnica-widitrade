@@ -15,11 +15,11 @@ class Favorite
     private int $id;
 
     #[ORM\ManyToOne(targetEntity: 'App\Entity\User')]
-    #[ORM\JoinColumn(nullable: false)]
+    #[ORM\JoinColumn(nullable: false, onDelete: 'CASCADE')]
     private User $user;
 
     #[ORM\ManyToOne(targetEntity: 'App\Entity\Content')]
-    #[ORM\JoinColumn(nullable: false)]
+    #[ORM\JoinColumn(nullable: false, onDelete: 'CASCADE')]
     private Content $content;
     
     public function getId(): int

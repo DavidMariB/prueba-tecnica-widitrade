@@ -46,7 +46,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
     #[ORM\Column(type: "json")]
     #[Groups(['user'])]
-    private ?array $roles = [];
+    private ?array $roles = ["ROLE_USER"];
 
     // Métodos requeridos por las interfaces
 

@@ -32,7 +32,7 @@ class Content
     private ?array $media_urls = null;
 
     #[ORM\ManyToOne(targetEntity: 'App\Entity\User')]
-    #[ORM\JoinColumn(nullable: false)]
+    #[ORM\JoinColumn(nullable: false, onDelete: 'CASCADE')]
     private User $user;
 
     #[ORM\OneToMany(mappedBy: 'content', targetEntity: 'App\Entity\Rating')]
