@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+login_check:
+    path: /api/login
+# token_decode:
+#     path: /decode-token
+#     controller: App\Controller\TokenController::decode
